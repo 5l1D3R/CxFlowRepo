@@ -33,7 +33,7 @@ jobs:
           # Provide Checkmarx URL
           checkmarx_url: ${{secrets.CHECKMARX_SERVER}}
           # Provide team
-          team: /CxServer/SP/EMEA/French_team
+          team: /CxServer/SP/EMEA
           #team: /CxServer
           # Provide Checkmarx Username
           checkmarx_username: ${{secrets.CHECKMARX_USERNAME}}
