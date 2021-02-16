@@ -36,7 +36,7 @@ jobs:
           team: /CxServer/SP/EMEA
           #team: /CxServer
           # Provide Checkmarx Username
-          checkmarx_username: ${{secrets.CHECKMARX_USERNAME}}
+          checkmarx_username: ${{secrets.CHECKMARX_USER}}
           # Provide Checkmarx Password
           checkmarx_password: ${{secrets.CHECKMARX_PASSWORD}}
           # Provide Checkmarx Client Secret
